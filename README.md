@@ -2,8 +2,22 @@
 Download http://wirethemall.com/WiredGTK2.1Windows.zip
 Follow Instructions in the readmelink.txt 
 
+You may now use Wired GTK for python, it uses default python3.4 
 
-Python3.7 With Tensorflow and PyGobject installation
+
+Wired GTK 2.1 Screenshot may 2020
+![](img.png)
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+if you want to use Python3.7 With Tensorflow and PyGobject within WiredGKT follow the instruction below.
 
 Download and install miniconda
 
@@ -82,13 +96,13 @@ run WiredGTK.bat
 
 under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Acer is your computer home)
 
-open TensorflowTraining in WiredGTK(download it in my github repo)
+
+
+
+/*Super Easy TensorflowTraining GUI will be uploaded(SSD,Faster RCNN supported, either local training or Google Colab)*/ 
 
 ----------------------------------------------------------------------------------------------------------
 
 
-
-Wired GTK 2.1 Screenshot may 2020
-![](img.png)
 
 

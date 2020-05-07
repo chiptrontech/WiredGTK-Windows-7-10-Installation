@@ -1,4 +1,4 @@
-# Wired-GTK-Windows-and-RasberryPi-Installation
+# Wired-GTK Windows7/10
 Download http://wirethemall.com/WiredGTK2.1Windows.zip
 Follow Instructions in the readmelink.txt 
 
@@ -80,4 +80,9 @@ run WiredGTK.bat
 under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Acer is your computer home)
 
 open TensorflowTraining in WiredGTK(download it in my github repo)
+
+
+
+Wired GTK 2.1 Screenshot may 2020
+![](img.png)
 

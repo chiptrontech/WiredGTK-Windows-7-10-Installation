@@ -5,9 +5,12 @@ Follow Instructions in the readmelink.txt
 
 Python3.7 With Tensorflow and PyGobject installation
 
-install miniconda
+Download and install miniconda
+
+
 from start menu run Anaconda Prompt(miniconda3)
 
+----------------------------------------------------------------------------------------------------------
 #this environment will be use for trianing tensorflow dataset
 conda create --name tensorflow1_15 tensorflow==1.15
 conda activate tensorflow1_15 
@@ -31,7 +34,7 @@ python setup.py build
 python setup.py install
 
 conda deactivate tensorflow1_15 
-
+----------------------------------------------------------------------------------------------------------
 
 #this environment will be use for WiredGTK with object_detection tensorflow detection
 
@@ -70,19 +73,22 @@ python setup.py build
 
 python setup.py install
 
-missing icons?
+missing icons in PyGObject?
 
-Download icon folder above extract it to c:\C:\Users\Acer\miniconda3\envs\wgtk\Library
+Download icon folder above extract it to c:\C:\Users\Acer\miniconda3\envs\wgtk\Library (Acer is your computer home)
 
-
+----------------------------------------------------------------------------------------------------------
 run WiredGTK.bat
 
 under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Acer is your computer home)
 
 open TensorflowTraining in WiredGTK(download it in my github repo)
 
+----------------------------------------------------------------------------------------------------------
+
 
 
 Wired GTK 2.1 Screenshot may 2020
 ![](img.png)
+
 

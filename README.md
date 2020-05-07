@@ -26,9 +26,13 @@ from start menu run Anaconda Prompt(miniconda3)
 
 ----------------------------------------------------------------------------------------------------------
 #this environment will be use for trianing tensorflow dataset
+
 conda create --name tensorflow1_15 tensorflow==1.15
+
 conda activate tensorflow1_15 
+
 pip install pandas
+
 pip install pillow
 
 download models from https://github.com/tensorflow/models.git

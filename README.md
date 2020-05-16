@@ -93,7 +93,7 @@ python setup.py install
 
 missing icons in PyGObject?
 
-Download icon folder above extract it to c:\C:\Users\Acer\miniconda3\envs\wgtk\Library (Acer is your computer home)
+Download icon folder above extract it to c:\C:\Users\Acer\miniconda3\envs\wgtk\Library\share (Acer is your computer home)
 
 ----------------------------------------------------------------------------------------------------------
 run WiredGTK.bat

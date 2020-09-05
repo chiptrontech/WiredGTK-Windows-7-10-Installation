@@ -25,7 +25,8 @@ Download and install miniconda
 from start menu run Anaconda Prompt(miniconda3)
 
 #####################################################################################
-#this environment will be use for training tensorflow dataset(Super Easy TensorflowTraining GUI)
+
+this environment will be use for training tensorflow dataset(Super Easy TensorflowTraining GUI)
 
 conda create --name tensorflow1_15 tensorflow==1.15
 
@@ -55,8 +56,7 @@ conda deactivate tensorflow1_15
 
 
 #####################################################################################
-
-#this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
+this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
 
 conda create --name wgtk tensorflow==2.0
 

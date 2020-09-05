@@ -56,6 +56,7 @@ make sure we are still in tensorflow1_15 virtual environment otherwise issue con
 
 
 #####################################################################################
+
 this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
 
 >conda create --name wgtk tensorflow==2.0

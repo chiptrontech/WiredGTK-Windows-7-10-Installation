@@ -24,7 +24,7 @@ Download and install miniconda
 
 from start menu run Anaconda Prompt(miniconda3)
 
-----------------------------------------------------------------------------------------------------------
+#########################################################################################################
 #this environment will be use for training tensorflow dataset(Super Easy TensorflowTraining GUI)
 
 conda create --name tensorflow1_15 tensorflow==1.15
@@ -52,7 +52,9 @@ python setup.py build
 python setup.py install
 
 conda deactivate tensorflow1_15 
-----------------------------------------------------------------------------------------------------------
+
+
+#########################################################################################################
 
 #this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
 
@@ -95,8 +97,9 @@ missing icons in PyGObject?
 
 Download icon folder above extract it to c:\C:\Users\Acer\miniconda3\envs\wgtk\Library\share (Acer is your computer home)
 
-----------------------------------------------------------------------------------------------------------
-run WiredGTK.bat
+#########################################################################################################
+
+RUN WiredGTK.bat
 
 under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Acer is your computer home)
 
@@ -105,7 +108,7 @@ under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Ac
 
 /*Super Easy TensorflowTraining GUI will be uploaded(SSD,Faster RCNN supported, either local training or Google Colab)*/ 
 
-----------------------------------------------------------------------------------------------------------
+
 
 
 

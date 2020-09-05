@@ -28,13 +28,13 @@ from start menu run Anaconda Prompt(miniconda3)
 
 this environment will be use for training tensorflow dataset(Super Easy TensorflowTraining GUI)
 
-conda create --name tensorflow1_15 tensorflow==1.15
+>conda create --name tensorflow1_15 tensorflow==1.15
 
-conda activate tensorflow1_15 
+>conda activate tensorflow1_15 
 
-pip install pandas
+>pip install pandas
 
-pip install pillow
+>pip install pillow
 
 download models from https://github.com/tensorflow/models.git
 
@@ -44,54 +44,53 @@ download models from https://github.com/tensorflow/models.git
 
 make sure we are still in tensorflow1_15 virtual environment otherwise issue conda activate tensorflow1_15 
 
-cd c:\tensorflow\models\research
+>cd c:\tensorflow\models\research
 
-protoc object_detection/protos/*.proto --python_out=.
+>protoc object_detection/protos/*.proto --python_out=.
 
-python setup.py build
+>python setup.py build
 
-python setup.py install
+>python setup.py install
 
-conda deactivate tensorflow1_15 
+>conda deactivate tensorflow1_15 
 
 
 #####################################################################################
 this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
 
-conda create --name wgtk tensorflow==2.0
+>conda create --name wgtk tensorflow==2.0
 
-conda activate wgtk 
+>conda activate wgtk 
 
-conda install -c conda-forge gtk3
+>conda install -c conda-forge gtk3
 
-conda install -c conda-forge pygobject
+>conda install -c conda-forge pygobject
 
-conda install pillow
+>conda install pillow
 
-conda install -c conda-forge mysqlclient
+>conda install -c conda-forge mysqlclient
 
-conda install -c conda-forge opencv
+>conda install -c conda-forge opencv
 
-pip install pandas
+>pip install pandas
 
-pip install requests
+>pip install requests
 
-pip install pyserial
+>pip install pyserial
 
-pip install imutils
+>pip install imutils
 
+>cd c:\tensorflow\models\research
 
-cd c:\tensorflow\models\research
-
-protoc object_detection/protos/*.proto --python_out=.
+>protoc object_detection/protos/*.proto --python_out=.
 
 open label_map_util.py from c:\tensorflow\models\research\object_detection\utils
 
 replace tf.gfile.GFile ===>>> tf.io.gfile.GFile
 
-python setup.py build
+>python setup.py build
 
-python setup.py install
+>python setup.py install
 
 missing icons in PyGObject?
 

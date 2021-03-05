@@ -26,7 +26,7 @@ from start menu run Anaconda Prompt(miniconda3)
 
 #####################################################################################
 
-this environment will be use for training tensorflow dataset(Super Easy TensorflowTraining GUI)
+this environment will be use for training tensorflow dataset(TensorflowTrainingApp GUI)
 
 >conda create --name tensorflow1_15 tensorflow==1.15
 
@@ -37,6 +37,7 @@ this environment will be use for training tensorflow dataset(Super Easy Tensorfl
 >pip install pillow
 
 download models.zip from https://drive.google.com/file/d/1KDd1Xz-JTf_25AkPKDZE15YxlWTpS_Jx/view?usp=sharing 
+
 1.create c:\tensorflow folder and extract it there(models folder)
 
 make sure we are still in tensorflow1_15 virtual environment otherwise issue conda activate tensorflow1_15 
@@ -49,7 +50,7 @@ make sure we are still in tensorflow1_15 virtual environment otherwise issue con
 
 >python setup.py install
 
->conda deactivate tensorflow1_15 
+>conda deactivate
 
 
 #####################################################################################

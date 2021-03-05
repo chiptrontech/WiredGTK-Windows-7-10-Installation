@@ -36,11 +36,8 @@ this environment will be use for training tensorflow dataset(Super Easy Tensorfl
 
 >pip install pillow
 
-download models from https://github.com/tensorflow/models.git
-
-1.extract to c:\tensorflow
-
-2.rename models-master to models
+download models.zip from https://drive.google.com/file/d/1KDd1Xz-JTf_25AkPKDZE15YxlWTpS_Jx/view?usp=sharing 
+1.create c:\tensorflow folder and extract it there(models folder)
 
 make sure we are still in tensorflow1_15 virtual environment otherwise issue conda activate tensorflow1_15 
 
@@ -57,7 +54,7 @@ make sure we are still in tensorflow1_15 virtual environment otherwise issue con
 
 #####################################################################################
 
-this environment will be use by WiredGTK runtime that has tensorflow libraries and PyGObject etc.
+this environment will be use by WiredGTK runtime for TensorflowTrainingApp or any Tensorflow GUI related project.
 
 >conda create --name wgtk tensorflow==2.0
 
@@ -85,10 +82,6 @@ this environment will be use by WiredGTK runtime that has tensorflow libraries a
 
 >protoc object_detection/protos/*.proto --python_out=.
 
-open label_map_util.py from c:\tensorflow\models\research\object_detection\utils
-
-replace tf.gfile.GFile ===>>> tf.io.gfile.GFile
-
 >python setup.py build
 
 >python setup.py install
@@ -106,7 +99,7 @@ under Option-Runtime select python.exe in C:\Users\Acer\miniconda3\envs\wgtk	(Ac
 
 
 
-/*Super Easy TensorflowTraining GUI will be uploaded(SSD,Faster RCNN supported, either local training or Google Colab)*/ 
+/*Super Easy TensorflowTrainingApp GUI will be uploaded(SSD,Faster RCNN supported, either local training or Google Colab)*/ 
 
 
 
